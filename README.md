@@ -5,10 +5,10 @@ In case you don't want to build your own security requirements for projects from
 We also support now the security requirements from OWASP ASVS 3.0.1
 
 # Usage
-Default Set
+## Default Set
 `mysql -u $your_db_user -p $your_db_name < requirements.sql`
 
-OWASP ASVS Set
+## OWASP ASVS Set
 `mysql -u $your_db_user -p $your_db_name < owasp_asvs_3_0_1.sql`
 
 # License
