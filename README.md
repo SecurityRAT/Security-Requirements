@@ -9,7 +9,12 @@ We also support now the security requirements from OWASP ASVS 3.0.1
 `mysql -u $your_db_user -p $your_db_name < requirements.sql`
 
 #### OWASP ASVS Set
+
+##### MySQL version 5.x and 6.x
 `mysql -u $your_db_user -p $your_db_name < owasp_asvs_3_0_1.sql`
+
+##### MySQL version 7.x
+`mysql -u $your_db_user -p $your_db_name < owasp_asvs_3_0_1_mysql_7.x.sql`
 
 # License
 This project is distributed under the Apache license, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
