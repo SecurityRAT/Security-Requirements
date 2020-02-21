@@ -10,11 +10,8 @@ In case you don't want to build your own security requirements for projects from
 
 #### OWASP ASVS Set
 
-##### MySQL version 5.x and 6.x
+##### OWASP ASVS 3.0.1 Set
 `mysql -u $your_db_user -p $your_db_name < owasp_asvs_3_0_1.sql`
-
-##### MySQL version 7.x
-`mysql -u $your_db_user -p $your_db_name < owasp_asvs_3_0_1_mysql_7.x.sql`
 
 #### OWASP ASVS 4.0.1 Set
 `mysql -u $your_db_user -p $your_db_name < OWASP-ASVS-4.0.1.sql`
