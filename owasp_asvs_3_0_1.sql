@@ -181,7 +181,7 @@ CREATE TABLE `OPTCOLUMN` (
 
 LOCK TABLES `OPTCOLUMN` WRITE;
 /*!40000 ALTER TABLE `OPTCOLUMN` DISABLE KEYS */;
-INSERT INTO `OPTCOLUMN` VALUES (1,'More Information','More information for the given requriement',0,'',1);
+INSERT INTO `OPTCOLUMN` VALUES (1,'More Information','More information for the given requriement',0,'',1, b'1');
 /*!40000 ALTER TABLE `OPTCOLUMN` ENABLE KEYS */;
 UNLOCK TABLES;
 
