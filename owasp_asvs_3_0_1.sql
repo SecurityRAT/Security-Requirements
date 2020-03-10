@@ -168,6 +168,7 @@ CREATE TABLE `OPTCOLUMN` (
   `show_order` int(11) DEFAULT NULL,
   `active` bit(1) DEFAULT NULL,
   `optcolumntype_id` bigint(20) DEFAULT NULL,
+  `isVisibleByDefault` bit(1) NOT NULL DEFAULT b'1',
   PRIMARY KEY (`id`),
   KEY `fk_optcolumn_optcolumntype_id` (`optcolumntype_id`),
   CONSTRAINT `fk_optcolumn_optcolumntype_id` FOREIGN KEY (`optcolumntype_id`) REFERENCES `OPTCOLUMNTYPE` (`id`)
