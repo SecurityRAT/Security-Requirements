@@ -9,8 +9,11 @@ In case you don't want to build your own security requirements for projects from
 ## Usage
 
 1. Create a new mySQL Database and set the privileges to the DB user , e.g.:
+
 `CREATE DATABASE $your_db_name;`
+
 `GRANT ALL PRIVILEGES ON $your_db_name.* To '$your_db_user'@'localhost' IDENTIFIED BY '$yourPW';`
+
 `FLUSH PRIVILEGES;`
 
 2. Start SecurityRAT without a requirement set to create the necessary database schema
@@ -39,7 +42,7 @@ In case SecurityRAT throws an exception if you want to add or modify an OptColum
 
 `mysql -u $your_db_user -p $your_db_name < BSI-C5-2020.sql`
 
-4. Fire up SecurityRAT again with your new security requirement set.
+4. Fire up SecurityRAT again with your new security requirement set like in step 2.
 
 ## License
 
