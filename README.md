@@ -17,9 +17,11 @@ In case you don't want to build your own security requirements for projects from
 `FLUSH PRIVILEGES;`
 
 2. Start SecurityRAT without a requirement set to create the necessary database schema
+
 `java -jar $SecurityRAT.war --spring.profiles.active=prod`
 
 3. Import your favored requirement set below:
+
 ### Default Set
 
 `mysql -u $your_db_user -p $your_db_name < requirements.sql`
