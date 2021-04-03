@@ -131,32 +131,6 @@ INSERT INTO `COLLECTIONINSTANCE` VALUES (1,'L1','ASVS Level 1 is for low assuran
 UNLOCK TABLES;
 
 --
--- Table structure for table `CONFIGCONSTANT`
---
-
-DROP TABLE IF EXISTS `CONFIGCONSTANT`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `CONFIGCONSTANT` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) NOT NULL,
-  `value` text,
-  `description` text,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `CONFIGCONSTANT`
---
-
-LOCK TABLES `CONFIGCONSTANT` WRITE;
-/*!40000 ALTER TABLE `CONFIGCONSTANT` DISABLE KEYS */;
-INSERT INTO `CONFIGCONSTANT` VALUES (1,'customRequirementName','CUS-','This is the short name representation for the custom requirements. 	'),(2,'filenamePrefix','SSDLC','This property will be used as prefix for the exported yaml file. 	'),(3,'ticketDescription','New development of a Secure SDLC Artifact.','This represents the default description value when exporting a requirement set. 	'),(4,'reportJIRAQueue',' ','This property gives the queue where tickets should be opened whenever suggestions to the requirements are sent. 	'),(5,'reportJIRAHost',' ','The Jira host address for tracking the feedbacks to the requirements.'),(6,'reportJIRAIssueType',' ','This is a jira issue type. It will be used to create ticket whenever a suggestion is given to a requirement. 	'),(7,'summaryForSuggestion','Feedback for a SSDLC requirement.','This represents the title of the created ticket whenever a suggestion is given to a requirement. 	'),(8,'ticketComment','A new version of the Secure SDLC Artifact §artifact_name§ has been exported.You can view and import it into the Secure SDLC Tool with the following link:§import_link§ This link corresponds to the attachment with the following name:§filename§','This will be added as comment when exporting a requirement set into a JIRA ticket.The placeholders §artifact_name§, §import_link§, §filename§ represent respectively the system artifact name, the import link and the filename of the attached file.'),(9,'summaryPrefix','SSDLC','This property is used to prefix the value of the summary field when creating a ticket on export.'),(10,'welcomeMessage','# Welcome to SecurityRAT','This property defines the welcome message in the home page. Markdown supported.'),(11,'JIRAIssueLinkTypeName','Relates','The default issue link type name used to link tickets in the same JIRA instance. Check the possible values for your instance using the rest URI (/rest/api/2/issueLinkType).'),(12,'JIRARemoteIssueLinkRelationshipName','relates to','The \'relationship\' name used to link remote tickets. That is tickets in different JIRA instances. More information [here](https://developer.atlassian.com/server/jira/platform/jira-rest-api-for-remote-issue-links/).'),(13,'defaultJIRAQueueForYAML','','This value defines the default JIRA queue (e.g. https://test-jira.com/browse/TEST) used to save your requirements.'),(14,'defaultJIRAHost','','Default JIRA host used in multiple Interfaces such as **create JIRA tickets** or **import**. When defined, the user could only provide a JIRA project name or ticket key instead of the whole URL.');
-/*!40000 ALTER TABLE `CONFIGCONSTANT` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `OPTCOLUMN`
 --
 
