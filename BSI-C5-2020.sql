@@ -19,6 +19,7 @@
 -- Table structure for table `ALTERNATIVEINSTANCE`
 --
 
+DROP TABLE IF EXISTS `ALTERNATIVEINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ALTERNATIVEINSTANCE` (
@@ -47,6 +48,7 @@ UNLOCK TABLES;
 -- Table structure for table `ALTERNATIVESET`
 --
 
+DROP TABLE IF EXISTS `ALTERNATIVESET`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ALTERNATIVESET` (
@@ -75,6 +77,7 @@ UNLOCK TABLES;
 -- Table structure for table `COLLECTIONCATEGORY`
 --
 
+DROP TABLE IF EXISTS `COLLECTIONCATEGORY`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `COLLECTIONCATEGORY` (
@@ -93,7 +96,7 @@ CREATE TABLE `COLLECTIONCATEGORY` (
 
 LOCK TABLES `COLLECTIONCATEGORY` WRITE;
 /*!40000 ALTER TABLE `COLLECTIONCATEGORY` DISABLE KEYS */;
-INSERT INTO `COLLECTIONCATEGORY` VALUES (1,'Cloud Computing Compliance Controls Catalogue (C5)','The Cloud Computing Compliance Controls Catalogue (abbreviated \"C5\") is intended primarily for professional cloud service providers, their auditors and customers of the cloud service providers. It is defined which requirements (also referred to as controls in this context) the cloud providers have to comply with or which minimum requirements the cloud providers should be obliged to meet.',0,_binary ''),(2,'Cloud Computing Compliance Controls Catalogue (C5)','The Cloud Computing Compliance Controls Catalogue (abbreviated \"C5\") is intended primarily for professional cloud service providers, their auditors and customers of the cloud service providers. It is defined which requirements (also referred to as controls in this context) the cloud providers have to comply with or which minimum requirements the cloud providers should be obliged to meet.',0,_binary '');
+INSERT INTO `COLLECTIONCATEGORY` VALUES (1,'Cloud Computing Compliance Controls Catalogue (C5)','The Cloud Computing Compliance Controls Catalogue (abbreviated \"C5\") is intended primarily for professional cloud service providers, their auditors and customers of the cloud service providers. It is defined which requirements (also referred to as controls in this context) the cloud providers have to comply with or which minimum requirements the cloud providers should be obliged to meet.',0,_binary ''),(2,'Cloud Computing Compliance Controls Catalogue (C5)','The Cloud Computing Compliance Controls Catalogue (abbreviated \"C5\") is intended primarily for professional cloud service providers, their auditors and customers of the cloud service providers. It is defined which requirements (also referred to as controls in this context) the cloud providers have to comply with or which minimum requirements the cloud providers should be obliged to meet.',0,_binary '');
 /*!40000 ALTER TABLE `COLLECTIONCATEGORY` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -101,6 +104,7 @@ UNLOCK TABLES;
 -- Table structure for table `COLLECTIONINSTANCE`
 --
 
+DROP TABLE IF EXISTS `COLLECTIONINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `COLLECTIONINSTANCE` (
@@ -122,7 +126,7 @@ CREATE TABLE `COLLECTIONINSTANCE` (
 
 LOCK TABLES `COLLECTIONINSTANCE` WRITE;
 /*!40000 ALTER TABLE `COLLECTIONINSTANCE` DISABLE KEYS */;
-INSERT INTO `COLLECTIONINSTANCE` VALUES (1,'Organisation of Information Security (OIS)','Organisation of Information Security (OIS)',10,_binary '',2),(2,'Security Policies and Instructions (SP)','Security Policies and Instructions (SP)',20,_binary '',2),(3,'Personnel (HR)','Personnel (HR)',30,_binary '',2),(4,'Asset Management (AM)','Asset Management (AM)',40,_binary '',2),(5,'Physical Security (PS)','Physical Security (PS)',50,_binary '',2),(6,'Operations (OPS)','Operations (OPS)',60,_binary '',2),(7,'Identity and Access Management (IDM)','Identity and Access Management (IDM)',70,_binary '',2),(8,'Cryptography and Key Management (CRY)','Cryptography and Key Management (CRY)',80,_binary '',2),(9,'Communication Security (COS)','Communication Security (COS)',90,_binary '',2),(10,'Portability and Interoperability (PI)','Portability and Interoperability (PI)',100,_binary '',2),(11,'Procurement, Development and Modification of Information Systems (DEV)','Procurement, Development and Modification of Information Systems (DEV)',110,_binary '',2),(12,'Control and Monitoring of Service Providers and Suppliers (SSO)','Control and Monitoring of Service Providers and Suppliers (SSO)',120,_binary '',2),(13,'Security Incident Management (SIM)','Security Incident Management (SIM)',130,_binary '',2),(14,'Business Continuity Management (BCM)','Business Continuity Management (BCM)',140,_binary '',2),(15,'Compliance (COM)','Compliance (COM)',150,_binary '',2),(16,'Dealing with investigation requests from government agencies (INQ)','Dealing with investigation requests from government agencies (INQ)',160,_binary '',2),(17,'Product Safety and Security (PSS)','Product Safety and Security (PSS)',170,_binary '',2),(18,'General Conditions (BC)','General Conditions (BC)',180,_binary '',2);
+INSERT INTO `COLLECTIONINSTANCE` VALUES (1,'Organisation of Information Security (OIS)','Organisation of Information Security (OIS)',10,_binary '',2),(2,'Security Policies and Instructions (SP)','Security Policies and Instructions (SP)',20,_binary '',2),(3,'Personnel (HR)','Personnel (HR)',30,_binary '',2),(4,'Asset Management (AM)','Asset Management (AM)',40,_binary '',2),(5,'Physical Security (PS)','Physical Security (PS)',50,_binary '',2),(6,'Operations (OPS)','Operations (OPS)',60,_binary '',2),(7,'Identity and Access Management (IDM)','Identity and Access Management (IDM)',70,_binary '',2),(8,'Cryptography and Key Management (CRY)','Cryptography and Key Management (CRY)',80,_binary '',2),(9,'Communication Security (COS)','Communication Security (COS)',90,_binary '',2),(10,'Portability and Interoperability (PI)','Portability and Interoperability (PI)',100,_binary '',2),(11,'Procurement, Development and Modification of Information Systems (DEV)','Procurement, Development and Modification of Information Systems (DEV)',110,_binary '',2),(12,'Control and Monitoring of Service Providers and Suppliers (SSO)','Control and Monitoring of Service Providers and Suppliers (SSO)',120,_binary '',2),(13,'Security Incident Management (SIM)','Security Incident Management (SIM)',130,_binary '',2),(14,'Business Continuity Management (BCM)','Business Continuity Management (BCM)',140,_binary '',2),(15,'Compliance (COM)','Compliance (COM)',150,_binary '',2),(16,'Dealing with investigation requests from government agencies (INQ)','Dealing with investigation requests from government agencies (INQ)',160,_binary '',2),(17,'Product Safety and Security (PSS)','Product Safety and Security (PSS)',170,_binary '',2),(18,'General Conditions (BC)','General Conditions (BC)',180,_binary '',2);
 /*!40000 ALTER TABLE `COLLECTIONINSTANCE` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -130,6 +134,7 @@ UNLOCK TABLES;
 -- Table structure for table `OPTCOLUMN`
 --
 
+DROP TABLE IF EXISTS `OPTCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `OPTCOLUMN` (
@@ -152,7 +157,7 @@ CREATE TABLE `OPTCOLUMN` (
 
 LOCK TABLES `OPTCOLUMN` WRITE;
 /*!40000 ALTER TABLE `OPTCOLUMN` DISABLE KEYS */;
-INSERT INTO `OPTCOLUMN` VALUES (2,'Basic Criteria','C5 Requirement description',100,_binary '',1,_binary ''),(3,'Additional Criteria','C5 Requirement description',110,_binary '',1,_binary ''),(4,'Supplementary Information - About the Criteria','Supplementary Information - About the Criteria',120,_binary '',1,_binary ''),(5,'Supplementary Information - Complementary Customer Criteria','Supplementary Information - Complementary Customer Criteria',130,_binary '',1,_binary ''),(6,'Supplementary Information - Notes on Continuous Auditing - Feasibility','Supplementary Information - Notes on Continuous Auditing - Feasibility',140,_binary '',1,_binary ''),(7,'Supplementary Information - Notes on Continuous Auditing','Supplementary Information - Notes on Continuous Auditing',150,_binary '',1,_binary '');
+INSERT INTO `OPTCOLUMN` VALUES (2,'Basic Criteria','C5 Requirement description',100,_binary '',1,_binary ''),(3,'Additional Criteria','C5 Requirement description',110,_binary '',1,_binary ''),(4,'Supplementary Information - About the Criteria','Supplementary Information - About the Criteria',120,_binary '',1,_binary ''),(5,'Supplementary Information - Complementary Customer Criteria','Supplementary Information - Complementary Customer Criteria',130,_binary '',1,_binary ''),(6,'Supplementary Information - Notes on Continuous Auditing - Feasibility','Supplementary Information - Notes on Continuous Auditing - Feasibility',140,_binary '',1,_binary ''),(7,'Supplementary Information - Notes on Continuous Auditing','Supplementary Information - Notes on Continuous Auditing',150,_binary '',1,_binary '');
 /*!40000 ALTER TABLE `OPTCOLUMN` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -160,6 +165,7 @@ UNLOCK TABLES;
 -- Table structure for table `OPTCOLUMNCONTENT`
 --
 
+DROP TABLE IF EXISTS `OPTCOLUMNCONTENT`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `OPTCOLUMNCONTENT` (
@@ -189,6 +195,7 @@ UNLOCK TABLES;
 -- Table structure for table `OPTCOLUMNTYPE`
 --
 
+DROP TABLE IF EXISTS `OPTCOLUMNTYPE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `OPTCOLUMNTYPE` (
@@ -213,6 +220,7 @@ UNLOCK TABLES;
 -- Table structure for table `PROJECTTYPE`
 --
 
+DROP TABLE IF EXISTS `PROJECTTYPE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `PROJECTTYPE` (
@@ -231,7 +239,7 @@ CREATE TABLE `PROJECTTYPE` (
 
 LOCK TABLES `PROJECTTYPE` WRITE;
 /*!40000 ALTER TABLE `PROJECTTYPE` DISABLE KEYS */;
-INSERT INTO `PROJECTTYPE` VALUES (1,'BSI C5',NULL,0,_binary '');
+INSERT INTO `PROJECTTYPE` VALUES (1,'BSI C5',NULL,0,_binary '');
 /*!40000 ALTER TABLE `PROJECTTYPE` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -239,6 +247,7 @@ UNLOCK TABLES;
 -- Table structure for table `PROJECTTYPE_OPTCOLUMN`
 --
 
+DROP TABLE IF EXISTS `PROJECTTYPE_OPTCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `PROJECTTYPE_OPTCOLUMN` (
@@ -265,6 +274,7 @@ UNLOCK TABLES;
 -- Table structure for table `PROJECTTYPE_STATUSCOLUMN`
 --
 
+DROP TABLE IF EXISTS `PROJECTTYPE_STATUSCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `PROJECTTYPE_STATUSCOLUMN` (
@@ -291,6 +301,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQCATEGORY`
 --
 
+DROP TABLE IF EXISTS `REQCATEGORY`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQCATEGORY` (
@@ -310,7 +321,7 @@ CREATE TABLE `REQCATEGORY` (
 
 LOCK TABLES `REQCATEGORY` WRITE;
 /*!40000 ALTER TABLE `REQCATEGORY` DISABLE KEYS */;
-INSERT INTO `REQCATEGORY` VALUES (1,'Organisation of Information Security (OIS)','OIS','',10,_binary ''),(2,'Security Policies and Instructions (SP)','SP','',20,_binary ''),(3,'Personnel (HR)','HR','',30,_binary ''),(4,'Asset Management (AM)','AM','',40,_binary ''),(5,'Physical Security (PS)','PS','',50,_binary ''),(6,'Operations (OPS)','OPS','',60,_binary ''),(7,'Identity and Access Management (IDM)','IDM','',70,_binary ''),(8,'Cryptography and Key Management (CRY)','CRY','',80,_binary ''),(9,'Communication Security (COS)','COS','',90,_binary ''),(10,'Portability and Interoperability (PI)','PI','',100,_binary ''),(11,'Procurement, Development and Modification of Information Systems (DEV)','DEV','',110,_binary ''),(12,'Control and Monitoring of Service Providers and Suppliers (SSO)','SSO','',120,_binary ''),(13,'Security Incident Management (SIM)','SIM','',130,_binary ''),(14,'Business Continuity Management (BCM)','BCM','',140,_binary ''),(15,'Compliance (COM)','COM','',150,_binary ''),(16,'Dealing with investigation requests from government agencies (INQ)','INQ','',160,_binary ''),(17,'Product Safety and Security (PSS)','PSS','',170,_binary ''),(18,'General Conditions (BC)','BC','',180,_binary '');
+INSERT INTO `REQCATEGORY` VALUES (1,'Organisation of Information Security (OIS)','OIS','',10,_binary ''),(2,'Security Policies and Instructions (SP)','SP','',20,_binary ''),(3,'Personnel (HR)','HR','',30,_binary ''),(4,'Asset Management (AM)','AM','',40,_binary ''),(5,'Physical Security (PS)','PS','',50,_binary ''),(6,'Operations (OPS)','OPS','',60,_binary ''),(7,'Identity and Access Management (IDM)','IDM','',70,_binary ''),(8,'Cryptography and Key Management (CRY)','CRY','',80,_binary ''),(9,'Communication Security (COS)','COS','',90,_binary ''),(10,'Portability and Interoperability (PI)','PI','',100,_binary ''),(11,'Procurement, Development and Modification of Information Systems (DEV)','DEV','',110,_binary ''),(12,'Control and Monitoring of Service Providers and Suppliers (SSO)','SSO','',120,_binary ''),(13,'Security Incident Management (SIM)','SIM','',130,_binary ''),(14,'Business Continuity Management (BCM)','BCM','',140,_binary ''),(15,'Compliance (COM)','COM','',150,_binary ''),(16,'Dealing with investigation requests from government agencies (INQ)','INQ','',160,_binary ''),(17,'Product Safety and Security (PSS)','PSS','',170,_binary ''),(18,'General Conditions (BC)','BC','',180,_binary '');
 /*!40000 ALTER TABLE `REQCATEGORY` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -318,6 +329,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQUIREMENTSKELETON`
 --
 
+DROP TABLE IF EXISTS `REQUIREMENTSKELETON`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQUIREMENTSKELETON` (
@@ -340,7 +352,7 @@ CREATE TABLE `REQUIREMENTSKELETON` (
 
 LOCK TABLES `REQUIREMENTSKELETON` WRITE;
 /*!40000 ALTER TABLE `REQUIREMENTSKELETON` DISABLE KEYS */;
-INSERT INTO `REQUIREMENTSKELETON` VALUES (1,NULL,'OIS-01','Information Security Management System (ISMS)',10,_binary '',1),(2,NULL,'OIS-02','Information Security Policy',20,_binary '',1),(3,NULL,'OIS-03','Interfaces and Dependencies',30,_binary '',1),(4,NULL,'OIS-04','Segregation of Duties',40,_binary '',1),(5,NULL,'OIS-05','Contact with Relevant Government Agencies and Interest Groups',50,_binary '',1),(6,NULL,'OIS-06','Risk Management Policy',60,_binary '',1),(7,NULL,'OIS-07','Application of the Risk Management Policy',70,_binary '',1),(8,NULL,'SP-01','Documentation, communication and provision of policies and instructions',80,_binary '',2),(9,NULL,'SP-02','Review and Approval of Policies and Instructions',90,_binary '',2),(10,NULL,'SP-03','Exceptions from Existing Policies and Instructions',100,_binary '',2),(11,NULL,'HR-01','Verification of qualification and trustworthiness',110,_binary '',3),(12,NULL,'HR-02','Employment terms and conditions',120,_binary '',3),(13,NULL,'HR-03','Security training and awareness programme',130,_binary '',3),(14,NULL,'HR-04','Disciplinary measures',140,_binary '',3),(15,NULL,'HR-05','Responsibilities in the event of termination or change of employment',150,_binary '',3),(16,NULL,'HR-06','Confidentiality agreements',160,_binary '',3),(17,NULL,'AM-01','Asset Inventory',170,_binary '',4),(18,NULL,'AM-02','Acceptable Use and Safe Handling of Assets Policy',180,_binary '',4),(19,NULL,'AM-03','Commissioning of Hardware',190,_binary '',4),(20,NULL,'AM-04','Decommissioning of Hardware',200,_binary '',4),(21,NULL,'AM-05','Commitment to Permissible Use, Safe Handling and Return of Assets',210,_binary '',4),(22,NULL,'AM-06','Asset Classification and Labelling',220,_binary '',4),(23,NULL,'PS-01','Physical Security and Environmental Control Requirements',230,_binary '',5),(24,NULL,'PS-02','Redundancy model',240,_binary '',5),(25,NULL,'PS-03','Perimeter Protection',250,_binary '',5),(26,NULL,'PS-04','Physical site access control',260,_binary '',5),(27,NULL,'PS-05','Protection against threats from outside and from the environment',270,_binary '',5),(28,NULL,'PS-06','Protection against interruptions caused by power failures and other such risks',280,_binary '',5),(29,NULL,'PS-07','Surveillance of operational and environmental parameters',290,_binary '',5),(30,NULL,'OPS-01','Capacity Management - Planning',300,_binary '',6),(31,NULL,'OPS-02','Capacity Management - Monitoring',310,_binary '',6),(32,NULL,'OPS-03','Capacity Management - Controlling of Resources',320,_binary '',6),(33,NULL,'OPS-04','Protection Against Malware - Concept',330,_binary '',6),(34,NULL,'OPS-05','Protection Against Malware - Implementation',340,_binary '',6),(35,NULL,'OPS-06','Data Protection and Recovery - Concept',350,_binary '',6),(36,NULL,'OPS-07','Data Backup and Recovery - Monitoring',360,_binary '',6),(37,NULL,'OPS-08','Data Backup and Recovery - Regular Testing',370,_binary '',6),(38,NULL,'OPS-09','Data Backup and Recovery - Storage',380,_binary '',6),(39,NULL,'OPS-10','Logging and Monitoring - Concept',390,_binary '',6),(40,NULL,'OPS-11','Logging and Monitoring - Metadata Management Concept',400,_binary '',6),(41,NULL,'OPS-12','Logging and Monitoring - Access, Storage and Deletion',410,_binary '',6),(42,NULL,'OPS-13','Logging and Monitoring - Identification of Events',420,_binary '',6),(43,NULL,'OPS-14','Logging and Monitoring - Storage of the Logging Data',430,_binary '',6),(44,NULL,'OPS-15','Logging and Monitoring - Accountability',440,_binary '',6),(45,NULL,'OPS-16','Logging and Monitoring - Configuration',450,_binary '',6),(46,NULL,'OPS-17','Logging and Monitoring - Availability of the Monitoring Software',460,_binary '',6),(47,NULL,'OPS-18','Managing Vulnerabilities, Malfunctions and Errors - Concept',470,_binary '',6),(48,NULL,'OPS-19','Managing Vulnerabilities, Malfunctions and Errors - Penetration Tests',480,_binary '',6),(49,NULL,'OPS-20','Managing Vulnerabilities, Malfunctions and Errors - Measurements, Analyses and Assessments of Procedures',490,_binary '',6),(50,NULL,'OPS-21','Involvement of Cloud customers in the event of incidents',500,_binary '',6),(51,NULL,'OPS-22','Testing and Documentation of known Vulnerabilities',510,_binary '',6),(52,NULL,'OPS-23','Managing Vulnerabilities, Malfunctions and Errors - System Hardening',520,_binary '',6),(53,NULL,'OPS-24','Separation of Datasets in the Cloud Infrastructure',530,_binary '',6),(54,NULL,'IDM-01','Policy for user accounts and access rights',540,_binary '',7),(55,NULL,'IDM-02','Granting and change of user accounts and access rights',550,_binary '',7),(56,NULL,'IDM-03','Locking and withdrawal of user accounts in the event of inactivity or multiple failed logins',560,_binary '',7),(57,NULL,'IDM-04','Withdraw or adjust access rights as the task area changes',570,_binary '',7),(58,NULL,'IDM-05','Regular review of access rights',580,_binary '',7),(59,NULL,'IDM-06','Privileged access rights',590,_binary '',7),(60,NULL,'IDM-07','Access to cloud customer data',600,_binary '',7),(61,NULL,'IDM-08','Confidentiality of authentication information',610,_binary '',7),(62,NULL,'IDM-09','Authentication mechanisms',620,_binary '',7),(63,NULL,'CRY-01','Policy for the use of encryption procedures and key management',630,_binary '',8),(64,NULL,'CRY-02','Encryption of data for transmission (transport encryption)',640,_binary '',8),(65,NULL,'CRY-03','Encryption of sensitive data for storage',650,_binary '',8),(66,NULL,'CRY-04','Secure key management',660,_binary '',8),(67,NULL,'COS-01','Technical safeguards',670,_binary '',9),(68,NULL,'COS-02','Security requirements for connections in the Cloud Service Provider\'s network',680,_binary '',9),(69,NULL,'COS-03','Monitoring of connections in the Cloud Service Provider\'s network',690,_binary '',9),(70,NULL,'COS-04','Cross-network access',700,_binary '',9),(71,NULL,'COS-05','Networks for administration',710,_binary '',9),(72,NULL,'COS-06','Segregation of data traffic in jointly used network environments',720,_binary '',9),(73,NULL,'COS-07','Documentation of the network topology',730,_binary '',9),(74,NULL,'COS-08','Policies for data transmission',740,_binary '',9),(75,NULL,'PI-01','Documentation and safety of input and output interfaces',750,_binary '',10),(76,NULL,'PI-02','Contractual agreements for the provision of data',760,_binary '',10),(77,NULL,'PI-03','Secure deletion of data',770,_binary '',10),(78,NULL,'DEV-01','Policies for the development/procurement of information systems',780,_binary '',11),(79,NULL,'DEV-02','Outsourcing of the development',790,_binary '',11),(80,NULL,'DEV-03','Policies for changes to information systems',800,_binary '',11),(81,NULL,'DEV-04','Safety training and awareness programme regarding continuous software delivery and associated systems, components or tools.',810,_binary '',11),(82,NULL,'DEV-05','Risk assessment, categorisation and prioritisation of changes',820,_binary '',11),(83,NULL,'DEV-06','Testing changes',830,_binary '',11),(84,NULL,'DEV-07','Logging of changes',840,_binary '',11),(85,NULL,'DEV-08','Version Control',850,_binary '',11),(86,NULL,'DEV-09','Approvals for provision in the production environment',860,_binary '',11),(87,NULL,'DEV-10','Separation of environments',870,_binary '',11),(88,NULL,'SSO-01','Policies and instructions for controlling and monitoring third parties',880,_binary '',12),(89,NULL,'SSO-02','Risk assessment of service providers and suppliers',890,_binary '',12),(90,NULL,'SSO-03','Directory of service providers and suppliers',900,_binary '',12),(91,NULL,'SSO-04','Monitoring of compliance with requirements',910,_binary '',12),(92,NULL,'SSO-05','Exit strategy for the receipt of benefits',920,_binary '',12),(93,NULL,'SIM-01','Policy for security incident management',930,_binary '',13),(94,NULL,'SIM-02','Processing of security incidents',940,_binary '',13),(95,NULL,'SIM-03','Documentation and reporting of security incidents',950,_binary '',13),(96,NULL,'SIM-04','Duty of the users to report security incidents to a central body',960,_binary '',13),(97,NULL,'SIM-05','Evaluation and learning process',970,_binary '',13),(98,NULL,'BCM-01','Top management responsibility',980,_binary '',14),(99,NULL,'BCM-02','Business impact analysis policies and instructions',990,_binary '',14),(100,NULL,'BCM-03','Planning business continuity',1000,_binary '',14),(101,NULL,'BCM-04','Verification, updating and testing of the business continuity',1010,_binary '',14),(102,NULL,'COM-01','Identification of applicable legal, regulatory, self-imposed or contractual requirements',1020,_binary '',15),(103,NULL,'COM-02','Policy for planning and conducting audits',1030,_binary '',15),(104,NULL,'COM-03','Internal audits of the information security management system',1040,_binary '',15),(105,NULL,'COM-04','Information on information security performance and management assessment of the ISMS',1050,_binary '',15),(106,NULL,'INQ-01','Legal Assessment of Investigative Inquiries',1060,_binary '',16),(107,NULL,'INQ-02','INQ-02 Informing Cloud Customers about Investigation Requests',1070,_binary '',16),(108,NULL,'INQ-03','Conditions for Access to or Disclosure of Data in Investigation Requests',1080,_binary '',16),(109,NULL,'INQ-04','Limiting Access to or Disclosure of Data in Investigation Requests',1090,_binary '',16),(110,NULL,'PSS-01','Guidelines and Recommendations for Cloud Customers',1100,_binary '',17),(111,NULL,'PSS-02','Identification of Vulnerabilities of the Cloud Service',1110,_binary '',17),(112,NULL,'PSS-03','Online Register of Known Vulnerabilities',1120,_binary '',17),(113,NULL,'PSS-04','Error handling and Logging Mechanisms',1130,_binary '',17),(114,NULL,'PSS-05','Authentication Mechanisms',1140,_binary '',17),(115,NULL,'PSS-06','Session Management',1150,_binary '',17),(116,NULL,'PSS-07','Confidentiality of Authentication Information',1160,_binary '',17),(117,NULL,'PSS-08','Roles and Rights Concept',1170,_binary '',17),(118,NULL,'PSS-09','Authorisation Mechanisms',1180,_binary '',17),(119,NULL,'PSS-10','Software Defined Networking',1190,_binary '',17),(120,NULL,'PSS-11','Images for Virtual Machines and Containers',1200,_binary '',17),(121,NULL,'PSS-12','Locations of Data Processing and Storage',1210,_binary '',17),(122,NULL,'BC-01','Information on jurisdiction and locations',1220,_binary '',18),(123,NULL,'BC-02','Information on availability and incident handling during regular operation',1230,_binary '',18),(124,NULL,'BC-03','Information on recovery parameters in emergency operation',1240,_binary '',18),(125,NULL,'BC-04','Information on the availability of the data centre',1250,_binary '',18),(126,NULL,'BC-05','Information on how investigation enquiries from government authorities are handled',1260,_binary '',18),(127,NULL,'BC-06','Information on certifications or attestations',1270,_binary '',18);
+INSERT INTO `REQUIREMENTSKELETON` VALUES (1,NULL,'OIS-01','Information Security Management System (ISMS)',10,_binary '',1),(2,NULL,'OIS-02','Information Security Policy',20,_binary '',1),(3,NULL,'OIS-03','Interfaces and Dependencies',30,_binary '',1),(4,NULL,'OIS-04','Segregation of Duties',40,_binary '',1),(5,NULL,'OIS-05','Contact with Relevant Government Agencies and Interest Groups',50,_binary '',1),(6,NULL,'OIS-06','Risk Management Policy',60,_binary '',1),(7,NULL,'OIS-07','Application of the Risk Management Policy',70,_binary '',1),(8,NULL,'SP-01','Documentation, communication and provision of policies and instructions',80,_binary '',2),(9,NULL,'SP-02','Review and Approval of Policies and Instructions',90,_binary '',2),(10,NULL,'SP-03','Exceptions from Existing Policies and Instructions',100,_binary '',2),(11,NULL,'HR-01','Verification of qualification and trustworthiness',110,_binary '',3),(12,NULL,'HR-02','Employment terms and conditions',120,_binary '',3),(13,NULL,'HR-03','Security training and awareness programme',130,_binary '',3),(14,NULL,'HR-04','Disciplinary measures',140,_binary '',3),(15,NULL,'HR-05','Responsibilities in the event of termination or change of employment',150,_binary '',3),(16,NULL,'HR-06','Confidentiality agreements',160,_binary '',3),(17,NULL,'AM-01','Asset Inventory',170,_binary '',4),(18,NULL,'AM-02','Acceptable Use and Safe Handling of Assets Policy',180,_binary '',4),(19,NULL,'AM-03','Commissioning of Hardware',190,_binary '',4),(20,NULL,'AM-04','Decommissioning of Hardware',200,_binary '',4),(21,NULL,'AM-05','Commitment to Permissible Use, Safe Handling and Return of Assets',210,_binary '',4),(22,NULL,'AM-06','Asset Classification and Labelling',220,_binary '',4),(23,NULL,'PS-01','Physical Security and Environmental Control Requirements',230,_binary '',5),(24,NULL,'PS-02','Redundancy model',240,_binary '',5),(25,NULL,'PS-03','Perimeter Protection',250,_binary '',5),(26,NULL,'PS-04','Physical site access control',260,_binary '',5),(27,NULL,'PS-05','Protection against threats from outside and from the environment',270,_binary '',5),(28,NULL,'PS-06','Protection against interruptions caused by power failures and other such risks',280,_binary '',5),(29,NULL,'PS-07','Surveillance of operational and environmental parameters',290,_binary '',5),(30,NULL,'OPS-01','Capacity Management - Planning',300,_binary '',6),(31,NULL,'OPS-02','Capacity Management - Monitoring',310,_binary '',6),(32,NULL,'OPS-03','Capacity Management - Controlling of Resources',320,_binary '',6),(33,NULL,'OPS-04','Protection Against Malware - Concept',330,_binary '',6),(34,NULL,'OPS-05','Protection Against Malware - Implementation',340,_binary '',6),(35,NULL,'OPS-06','Data Protection and Recovery - Concept',350,_binary '',6),(36,NULL,'OPS-07','Data Backup and Recovery - Monitoring',360,_binary '',6),(37,NULL,'OPS-08','Data Backup and Recovery - Regular Testing',370,_binary '',6),(38,NULL,'OPS-09','Data Backup and Recovery - Storage',380,_binary '',6),(39,NULL,'OPS-10','Logging and Monitoring - Concept',390,_binary '',6),(40,NULL,'OPS-11','Logging and Monitoring - Metadata Management Concept',400,_binary '',6),(41,NULL,'OPS-12','Logging and Monitoring - Access, Storage and Deletion',410,_binary '',6),(42,NULL,'OPS-13','Logging and Monitoring - Identification of Events',420,_binary '',6),(43,NULL,'OPS-14','Logging and Monitoring - Storage of the Logging Data',430,_binary '',6),(44,NULL,'OPS-15','Logging and Monitoring - Accountability',440,_binary '',6),(45,NULL,'OPS-16','Logging and Monitoring - Configuration',450,_binary '',6),(46,NULL,'OPS-17','Logging and Monitoring - Availability of the Monitoring Software',460,_binary '',6),(47,NULL,'OPS-18','Managing Vulnerabilities, Malfunctions and Errors - Concept',470,_binary '',6),(48,NULL,'OPS-19','Managing Vulnerabilities, Malfunctions and Errors - Penetration Tests',480,_binary '',6),(49,NULL,'OPS-20','Managing Vulnerabilities, Malfunctions and Errors - Measurements, Analyses and Assessments of Procedures',490,_binary '',6),(50,NULL,'OPS-21','Involvement of Cloud customers in the event of incidents',500,_binary '',6),(51,NULL,'OPS-22','Testing and Documentation of known Vulnerabilities',510,_binary '',6),(52,NULL,'OPS-23','Managing Vulnerabilities, Malfunctions and Errors - System Hardening',520,_binary '',6),(53,NULL,'OPS-24','Separation of Datasets in the Cloud Infrastructure',530,_binary '',6),(54,NULL,'IDM-01','Policy for user accounts and access rights',540,_binary '',7),(55,NULL,'IDM-02','Granting and change of user accounts and access rights',550,_binary '',7),(56,NULL,'IDM-03','Locking and withdrawal of user accounts in the event of inactivity or multiple failed logins',560,_binary '',7),(57,NULL,'IDM-04','Withdraw or adjust access rights as the task area changes',570,_binary '',7),(58,NULL,'IDM-05','Regular review of access rights',580,_binary '',7),(59,NULL,'IDM-06','Privileged access rights',590,_binary '',7),(60,NULL,'IDM-07','Access to cloud customer data',600,_binary '',7),(61,NULL,'IDM-08','Confidentiality of authentication information',610,_binary '',7),(62,NULL,'IDM-09','Authentication mechanisms',620,_binary '',7),(63,NULL,'CRY-01','Policy for the use of encryption procedures and key management',630,_binary '',8),(64,NULL,'CRY-02','Encryption of data for transmission (transport encryption)',640,_binary '',8),(65,NULL,'CRY-03','Encryption of sensitive data for storage',650,_binary '',8),(66,NULL,'CRY-04','Secure key management',660,_binary '',8),(67,NULL,'COS-01','Technical safeguards',670,_binary '',9),(68,NULL,'COS-02','Security requirements for connections in the Cloud Service Provider\'s network',680,_binary '',9),(69,NULL,'COS-03','Monitoring of connections in the Cloud Service Provider\'s network',690,_binary '',9),(70,NULL,'COS-04','Cross-network access',700,_binary '',9),(71,NULL,'COS-05','Networks for administration',710,_binary '',9),(72,NULL,'COS-06','Segregation of data traffic in jointly used network environments',720,_binary '',9),(73,NULL,'COS-07','Documentation of the network topology',730,_binary '',9),(74,NULL,'COS-08','Policies for data transmission',740,_binary '',9),(75,NULL,'PI-01','Documentation and safety of input and output interfaces',750,_binary '',10),(76,NULL,'PI-02','Contractual agreements for the provision of data',760,_binary '',10),(77,NULL,'PI-03','Secure deletion of data',770,_binary '',10),(78,NULL,'DEV-01','Policies for the development/procurement of information systems',780,_binary '',11),(79,NULL,'DEV-02','Outsourcing of the development',790,_binary '',11),(80,NULL,'DEV-03','Policies for changes to information systems',800,_binary '',11),(81,NULL,'DEV-04','Safety training and awareness programme regarding continuous software delivery and associated systems, components or tools.',810,_binary '',11),(82,NULL,'DEV-05','Risk assessment, categorisation and prioritisation of changes',820,_binary '',11),(83,NULL,'DEV-06','Testing changes',830,_binary '',11),(84,NULL,'DEV-07','Logging of changes',840,_binary '',11),(85,NULL,'DEV-08','Version Control',850,_binary '',11),(86,NULL,'DEV-09','Approvals for provision in the production environment',860,_binary '',11),(87,NULL,'DEV-10','Separation of environments',870,_binary '',11),(88,NULL,'SSO-01','Policies and instructions for controlling and monitoring third parties',880,_binary '',12),(89,NULL,'SSO-02','Risk assessment of service providers and suppliers',890,_binary '',12),(90,NULL,'SSO-03','Directory of service providers and suppliers',900,_binary '',12),(91,NULL,'SSO-04','Monitoring of compliance with requirements',910,_binary '',12),(92,NULL,'SSO-05','Exit strategy for the receipt of benefits',920,_binary '',12),(93,NULL,'SIM-01','Policy for security incident management',930,_binary '',13),(94,NULL,'SIM-02','Processing of security incidents',940,_binary '',13),(95,NULL,'SIM-03','Documentation and reporting of security incidents',950,_binary '',13),(96,NULL,'SIM-04','Duty of the users to report security incidents to a central body',960,_binary '',13),(97,NULL,'SIM-05','Evaluation and learning process',970,_binary '',13),(98,NULL,'BCM-01','Top management responsibility',980,_binary '',14),(99,NULL,'BCM-02','Business impact analysis policies and instructions',990,_binary '',14),(100,NULL,'BCM-03','Planning business continuity',1000,_binary '',14),(101,NULL,'BCM-04','Verification, updating and testing of the business continuity',1010,_binary '',14),(102,NULL,'COM-01','Identification of applicable legal, regulatory, self-imposed or contractual requirements',1020,_binary '',15),(103,NULL,'COM-02','Policy for planning and conducting audits',1030,_binary '',15),(104,NULL,'COM-03','Internal audits of the information security management system',1040,_binary '',15),(105,NULL,'COM-04','Information on information security performance and management assessment of the ISMS',1050,_binary '',15),(106,NULL,'INQ-01','Legal Assessment of Investigative Inquiries',1060,_binary '',16),(107,NULL,'INQ-02','INQ-02 Informing Cloud Customers about Investigation Requests',1070,_binary '',16),(108,NULL,'INQ-03','Conditions for Access to or Disclosure of Data in Investigation Requests',1080,_binary '',16),(109,NULL,'INQ-04','Limiting Access to or Disclosure of Data in Investigation Requests',1090,_binary '',16),(110,NULL,'PSS-01','Guidelines and Recommendations for Cloud Customers',1100,_binary '',17),(111,NULL,'PSS-02','Identification of Vulnerabilities of the Cloud Service',1110,_binary '',17),(112,NULL,'PSS-03','Online Register of Known Vulnerabilities',1120,_binary '',17),(113,NULL,'PSS-04','Error handling and Logging Mechanisms',1130,_binary '',17),(114,NULL,'PSS-05','Authentication Mechanisms',1140,_binary '',17),(115,NULL,'PSS-06','Session Management',1150,_binary '',17),(116,NULL,'PSS-07','Confidentiality of Authentication Information',1160,_binary '',17),(117,NULL,'PSS-08','Roles and Rights Concept',1170,_binary '',17),(118,NULL,'PSS-09','Authorisation Mechanisms',1180,_binary '',17),(119,NULL,'PSS-10','Software Defined Networking',1190,_binary '',17),(120,NULL,'PSS-11','Images for Virtual Machines and Containers',1200,_binary '',17),(121,NULL,'PSS-12','Locations of Data Processing and Storage',1210,_binary '',17),(122,NULL,'BC-01','Information on jurisdiction and locations',1220,_binary '',18),(123,NULL,'BC-02','Information on availability and incident handling during regular operation',1230,_binary '',18),(124,NULL,'BC-03','Information on recovery parameters in emergency operation',1240,_binary '',18),(125,NULL,'BC-04','Information on the availability of the data centre',1250,_binary '',18),(126,NULL,'BC-05','Information on how investigation enquiries from government authorities are handled',1260,_binary '',18),(127,NULL,'BC-06','Information on certifications or attestations',1270,_binary '',18);
 /*!40000 ALTER TABLE `REQUIREMENTSKELETON` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -348,6 +360,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQUIREMENTSKELETON_COLLECTIONINSTANCE`
 --
 
+DROP TABLE IF EXISTS `REQUIREMENTSKELETON_COLLECTIONINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQUIREMENTSKELETON_COLLECTIONINSTANCE` (
@@ -374,6 +387,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQUIREMENTSKELETON_PROJECTTYPE`
 --
 
+DROP TABLE IF EXISTS `REQUIREMENTSKELETON_PROJECTTYPE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQUIREMENTSKELETON_PROJECTTYPE` (
@@ -400,6 +414,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQUIREMENTSKELETON_TAGINSTANCE`
 --
 
+DROP TABLE IF EXISTS `REQUIREMENTSKELETON_TAGINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQUIREMENTSKELETON_TAGINSTANCE` (
@@ -425,6 +440,7 @@ UNLOCK TABLES;
 -- Table structure for table `SLIDETEMPLATE`
 --
 
+DROP TABLE IF EXISTS `SLIDETEMPLATE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `SLIDETEMPLATE` (
@@ -453,6 +469,7 @@ UNLOCK TABLES;
 -- Table structure for table `STATUSCOLUMN`
 --
 
+DROP TABLE IF EXISTS `STATUSCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `STATUSCOLUMN` (
@@ -472,7 +489,7 @@ CREATE TABLE `STATUSCOLUMN` (
 
 LOCK TABLES `STATUSCOLUMN` WRITE;
 /*!40000 ALTER TABLE `STATUSCOLUMN` DISABLE KEYS */;
-INSERT INTO `STATUSCOLUMN` VALUES (1,'Notes',NULL,_binary '\0',0,_binary '');
+INSERT INTO `STATUSCOLUMN` VALUES (1,'Notes',NULL,_binary '\0',0,_binary '');
 /*!40000 ALTER TABLE `STATUSCOLUMN` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -480,6 +497,7 @@ UNLOCK TABLES;
 -- Table structure for table `STATUSCOLUMNVALUE`
 --
 
+DROP TABLE IF EXISTS `STATUSCOLUMNVALUE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `STATUSCOLUMNVALUE` (
@@ -508,6 +526,7 @@ UNLOCK TABLES;
 -- Table structure for table `TAGCATEGORY`
 --
 
+DROP TABLE IF EXISTS `TAGCATEGORY`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TAGCATEGORY` (
@@ -533,6 +552,7 @@ UNLOCK TABLES;
 -- Table structure for table `TAGINSTANCE`
 --
 
+DROP TABLE IF EXISTS `TAGINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TAGINSTANCE` (
@@ -561,6 +581,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAINING`
 --
 
+DROP TABLE IF EXISTS `TRAINING`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAINING` (
@@ -589,6 +610,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGBRANCHNODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGBRANCHNODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGBRANCHNODE` (
@@ -615,6 +637,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGCATEGORYNODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGCATEGORYNODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGCATEGORYNODE` (
@@ -643,6 +666,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGCUSTOMSLIDENODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGCUSTOMSLIDENODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGCUSTOMSLIDENODE` (
@@ -670,6 +694,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGGENERATEDSLIDENODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGGENERATEDSLIDENODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGGENERATEDSLIDENODE` (
@@ -697,6 +722,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGREQUIREMENTNODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGREQUIREMENTNODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGREQUIREMENTNODE` (
@@ -724,6 +750,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGTREENODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGTREENODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGTREENODE` (
@@ -754,6 +781,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAINING_COLLECTION`
 --
 
+DROP TABLE IF EXISTS `TRAINING_COLLECTION`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAINING_COLLECTION` (
@@ -779,6 +807,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAINING_OPTCOLUMN`
 --
 
+DROP TABLE IF EXISTS `TRAINING_OPTCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAINING_OPTCOLUMN` (
@@ -804,6 +833,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAINING_PROJECTTYPE`
 --
 
+DROP TABLE IF EXISTS `TRAINING_PROJECTTYPE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAINING_PROJECTTYPE` (

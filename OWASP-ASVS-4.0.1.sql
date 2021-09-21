@@ -19,6 +19,7 @@
 -- Table structure for table `ALTERNATIVEINSTANCE`
 --
 
+DROP TABLE IF EXISTS `ALTERNATIVEINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ALTERNATIVEINSTANCE` (
@@ -47,6 +48,7 @@ UNLOCK TABLES;
 -- Table structure for table `ALTERNATIVESET`
 --
 
+DROP TABLE IF EXISTS `ALTERNATIVESET`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `ALTERNATIVESET` (
@@ -75,6 +77,7 @@ UNLOCK TABLES;
 -- Table structure for table `COLLECTIONCATEGORY`
 --
 
+DROP TABLE IF EXISTS `COLLECTIONCATEGORY`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `COLLECTIONCATEGORY` (
@@ -101,6 +104,7 @@ UNLOCK TABLES;
 -- Table structure for table `COLLECTIONINSTANCE`
 --
 
+DROP TABLE IF EXISTS `COLLECTIONINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `COLLECTIONINSTANCE` (
@@ -130,6 +134,7 @@ UNLOCK TABLES;
 -- Table structure for table `OPTCOLUMN`
 --
 
+DROP TABLE IF EXISTS `OPTCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `OPTCOLUMN` (
@@ -160,6 +165,7 @@ UNLOCK TABLES;
 -- Table structure for table `OPTCOLUMNCONTENT`
 --
 
+DROP TABLE IF EXISTS `OPTCOLUMNCONTENT`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `OPTCOLUMNCONTENT` (
@@ -189,6 +195,7 @@ UNLOCK TABLES;
 -- Table structure for table `OPTCOLUMNTYPE`
 --
 
+DROP TABLE IF EXISTS `OPTCOLUMNTYPE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `OPTCOLUMNTYPE` (
@@ -213,6 +220,7 @@ UNLOCK TABLES;
 -- Table structure for table `PROJECTTYPE`
 --
 
+DROP TABLE IF EXISTS `PROJECTTYPE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `PROJECTTYPE` (
@@ -239,6 +247,7 @@ UNLOCK TABLES;
 -- Table structure for table `PROJECTTYPE_OPTCOLUMN`
 --
 
+DROP TABLE IF EXISTS `PROJECTTYPE_OPTCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `PROJECTTYPE_OPTCOLUMN` (
@@ -265,6 +274,7 @@ UNLOCK TABLES;
 -- Table structure for table `PROJECTTYPE_STATUSCOLUMN`
 --
 
+DROP TABLE IF EXISTS `PROJECTTYPE_STATUSCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `PROJECTTYPE_STATUSCOLUMN` (
@@ -291,6 +301,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQCATEGORY`
 --
 
+DROP TABLE IF EXISTS `REQCATEGORY`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQCATEGORY` (
@@ -318,6 +329,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQUIREMENTSKELETON`
 --
 
+DROP TABLE IF EXISTS `REQUIREMENTSKELETON`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQUIREMENTSKELETON` (
@@ -348,6 +360,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQUIREMENTSKELETON_COLLECTIONINSTANCE`
 --
 
+DROP TABLE IF EXISTS `REQUIREMENTSKELETON_COLLECTIONINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQUIREMENTSKELETON_COLLECTIONINSTANCE` (
@@ -374,6 +387,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQUIREMENTSKELETON_PROJECTTYPE`
 --
 
+DROP TABLE IF EXISTS `REQUIREMENTSKELETON_PROJECTTYPE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQUIREMENTSKELETON_PROJECTTYPE` (
@@ -400,6 +414,7 @@ UNLOCK TABLES;
 -- Table structure for table `REQUIREMENTSKELETON_TAGINSTANCE`
 --
 
+DROP TABLE IF EXISTS `REQUIREMENTSKELETON_TAGINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `REQUIREMENTSKELETON_TAGINSTANCE` (
@@ -425,6 +440,7 @@ UNLOCK TABLES;
 -- Table structure for table `SLIDETEMPLATE`
 --
 
+DROP TABLE IF EXISTS `SLIDETEMPLATE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `SLIDETEMPLATE` (
@@ -453,6 +469,7 @@ UNLOCK TABLES;
 -- Table structure for table `STATUSCOLUMN`
 --
 
+DROP TABLE IF EXISTS `STATUSCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `STATUSCOLUMN` (
@@ -480,6 +497,7 @@ UNLOCK TABLES;
 -- Table structure for table `STATUSCOLUMNVALUE`
 --
 
+DROP TABLE IF EXISTS `STATUSCOLUMNVALUE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `STATUSCOLUMNVALUE` (
@@ -508,6 +526,7 @@ UNLOCK TABLES;
 -- Table structure for table `TAGCATEGORY`
 --
 
+DROP TABLE IF EXISTS `TAGCATEGORY`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TAGCATEGORY` (
@@ -533,6 +552,7 @@ UNLOCK TABLES;
 -- Table structure for table `TAGINSTANCE`
 --
 
+DROP TABLE IF EXISTS `TAGINSTANCE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TAGINSTANCE` (
@@ -561,6 +581,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAINING`
 --
 
+DROP TABLE IF EXISTS `TRAINING`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAINING` (
@@ -589,6 +610,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGBRANCHNODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGBRANCHNODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGBRANCHNODE` (
@@ -615,6 +637,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGCATEGORYNODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGCATEGORYNODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGCATEGORYNODE` (
@@ -643,6 +666,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGCUSTOMSLIDENODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGCUSTOMSLIDENODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGCUSTOMSLIDENODE` (
@@ -670,6 +694,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGGENERATEDSLIDENODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGGENERATEDSLIDENODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGGENERATEDSLIDENODE` (
@@ -697,6 +722,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGREQUIREMENTNODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGREQUIREMENTNODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGREQUIREMENTNODE` (
@@ -724,6 +750,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAININGTREENODE`
 --
 
+DROP TABLE IF EXISTS `TRAININGTREENODE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAININGTREENODE` (
@@ -754,6 +781,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAINING_COLLECTION`
 --
 
+DROP TABLE IF EXISTS `TRAINING_COLLECTION`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAINING_COLLECTION` (
@@ -779,6 +807,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAINING_OPTCOLUMN`
 --
 
+DROP TABLE IF EXISTS `TRAINING_OPTCOLUMN`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAINING_OPTCOLUMN` (
@@ -804,6 +833,7 @@ UNLOCK TABLES;
 -- Table structure for table `TRAINING_PROJECTTYPE`
 --
 
+DROP TABLE IF EXISTS `TRAINING_PROJECTTYPE`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `TRAINING_PROJECTTYPE` (
