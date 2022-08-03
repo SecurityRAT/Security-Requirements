@@ -126,6 +126,7 @@ CREATE TABLE `OPTCOLUMN` (
   `show_order` int(11) DEFAULT NULL,
   `active` bit(1) DEFAULT NULL,
   `optcolumntype_id` bigint(20) DEFAULT NULL,
+  `isVisibleByDefault` bit(1) NOT NULL DEFAULT b'1',
   PRIMARY KEY (`id`),
   KEY `fk_optcolumn_optcolumntype_id` (`optcolumntype_id`),
   CONSTRAINT `fk_optcolumn_optcolumntype_id` FOREIGN KEY (`optcolumntype_id`) REFERENCES `OPTCOLUMNTYPE` (`id`)
@@ -138,7 +139,7 @@ CREATE TABLE `OPTCOLUMN` (
 
 LOCK TABLES `OPTCOLUMN` WRITE;
 /*!40000 ALTER TABLE `OPTCOLUMN` DISABLE KEYS */;
-INSERT INTO `OPTCOLUMN` VALUES (1,'More Information','This makes it clear to techs how to achieve the control',10,'',2),(2,'Motivation','This explains why we wannt to implement the requirement',20,'',1),(3,'Test Case','This describes how we can test the requirement',30,'\0',3);
+INSERT INTO `OPTCOLUMN` VALUES (1,'More Information','This makes it clear to techs how to achieve the control',10,'',2, b'1'),(2,'Motivation','This explains why we wannt to implement the requirement',20,'',1, b'1'),(3,'Test Case','This describes how we can test the requirement',30,'\0',3);
 /*!40000 ALTER TABLE `OPTCOLUMN` ENABLE KEYS */;
 UNLOCK TABLES;
 
