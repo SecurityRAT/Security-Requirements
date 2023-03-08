@@ -28,6 +28,9 @@ In case you don't want to build your own security requirements for projects from
 
 ### OWASP ASVS Set
 
+For OWASP ASVS we highly recommend using the SecurityRAT-ASVS-importer written by @mllamazares to always have the up-to-date version in place:
+https://github.com/mllamazares/SecurityRAT-ASVS-Importer
+
 #### OWASP ASVS 3.0.1 Set
 
 `mysql -u $your_db_user -p $your_db_name < owasp_asvs_3_0_1.sql`
